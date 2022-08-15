@@ -123,8 +123,7 @@ main h2{
     }
 }
 
-.imagen-box-1,
-.imagen-hablando{
+.img-fluid{
     animation-duration: 2s ;
     animation-name: imagen;
 }
@@ -248,5 +247,12 @@ h3{
 @media (max-width: 620px){
     .menu-nav{
         flex-direction: column;
+    }
+}
+@media (max-width: 620px){
+    .parrafo-1,
+    .parrafo-2{
+        font-size: 15px;
+        width: 290px;
     }
 }
