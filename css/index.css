@@ -22,7 +22,7 @@ h1{
     margin: 0 auto;
     font-size: 45px;
 }
-h1{
+/* h1{
     animation-duration: 2s ;
     animation-name: titulo; 
 }
@@ -30,7 +30,7 @@ h1{
     from{
         transform: skew(10deg);
     }
-}
+} */
 /* header nav ul li{
     display: grid;
     display: inline-block;
