@@ -136,8 +136,7 @@ th, td {
     }
 }
 
-.imagen-box-1,
-.imagen-hablando{
+.img-fluid{
     animation-duration: 2s ;
     animation-name: imagen;
 }
@@ -286,11 +285,19 @@ h3{
         flex-direction: column;
     }
 }
+<<<<<<< HEAD
 @media (max-width: 458px){
     .subtitulo{
         font-size: 17px;
     }
     .item{
         font-size: 13px;
+=======
+@media (max-width: 620px){
+    .parrafo-1,
+    .parrafo-2{
+        font-size: 15px;
+        width: 290px;
+>>>>>>> 3e49f9b749706c585db763c723ef0f5bdd8d4032
     }
 }
