@@ -26,42 +26,44 @@
     </header>
     <main>
         <form action="#" class="cambio-de-letra">
-            <div> <p>Quien Consulta</p>
-            <select name="Quien consulta" id="Quien consulta">
+            <div id="Quien-consulta"> <p>¿Quien Consulta?</p>
+            <select name="Quien consulta" id="Quien-consulta">
                 <option value="Paciente">Paciente</option>
                 <option value="Profesional">Profesional</option>
             </select>
             </div>
                 <h3 class="formulario">Especialidad</h3>
-                    <input type="radio" name="Especialidad" value="Psicopedagogia">
-                    <label for="Psicopedagogia">Psicopedagogia</label>
-                    <input type="radio" name="Especialidad" value="Fonoaudiologia">
-                    <label for="Fonoaudiologia">Fonoaudiologia</label>
-                    <input type="radio" name="Especialidad" value="Nutricion">
-                    <label for="Nutricion">Nutricion</label>
-                    <input type="radio" name="Especialidad" value="Psicologia">
-                    <label for="Psicologia">Psicologia</label>
-                    <input type="radio" name="Especialidad" value="Otra">
-                    <label for="Otra">Otra</label>
-                    <br>
+                    <div class="seleccionar">
+                        <input type="radio" name="Especialidad" value="Psicopedagogia">
+                        <label for="Psicopedagogia">Psicopedagogia</label>
+                        <input type="radio" name="Especialidad" value="Fonoaudiologia">
+                        <label for="Fonoaudiologia">Fonoaudiologia</label>
+                        <input type="radio" name="Especialidad" value="Nutricion">
+                        <label for="Nutricion">Nutricion</label>
+                        <input type="radio" name="Especialidad" value="Psicologia">
+                        <label for="Psicologia">Psicologia</label>
+                        <input type="radio" name="Especialidad" value="Otra">
+                        <label for="Otra">Otra</label>
+                    </div>
                     <div class="fondo-verde">
-                    <br>
-                    <input type="text" placeholder="Nombre y Apellido"><br>
-                    <input type="email" placeholder="email"><br>
-                    <label for="Consulta"> Consulta<br>
-                        <textarea placeholder="..."></textarea><br>
-                    <input type=submit value="Enviar">
-                    </label>
-                    <br>
+                        <section class="completar">
+                            <input type="text" placeholder="Nombre y Apellido">
+                            <input type="email" placeholder="email">
+                            <label for="Consulta"> Consulta </label>
+                                <textarea placeholder="..."></textarea>
+                            <input type=submit value="Enviar">
+                        </section>
                     </div>
         </form>
     </main>
-    <footer>
-        <br>
+    <footer class="all-footer">
         <!--Se agrega logo en cada item-->
-        <h3><a href="https://www.instagram.com/consultoriointegralurquiza/" target="_blank">Instagram</a></h3>
-        <h3>consulta@ciu.com</h3>
-        <h3>02325-444444</h3>
+            <img src="..\imagen\instagram.png" alt="logo instagram" width="20px" height="20px">
+            <h3><a href="https://www.instagram.com/consultoriointegralurquiza/" target="_blank">Instagram</a></h3> 
+            <img src="..\imagen\mail.png" alt="logo mail" width="20px" height="20px">
+            <h3>consulta@ciu.com</h3>
+            <img src="..\imagen\telefono.png" alt="logo mail" width="20px" height="20px">
+            <h3>02325-444444</h3>
     </footer>
 </body>
 </html>
