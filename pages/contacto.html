@@ -26,9 +26,8 @@
     </header>
     <main>
         <form action="#" class="cambio-de-letra">
-            <div id="Quien-consulta"> <p>¿Quien Consulta?</p>
-                <br>
-                <select name="Quien consulta">
+            <div> <p id="Quien-consulta">¿Quien Consulta?</p>   
+                <select name="Quien consulta" id="Quien-consulta">
                     <option value="Paciente">Paciente</option>
                     <option value="Profesional">Profesional</option>
                 </select>
@@ -45,16 +44,18 @@
                         <input type="radio" name="Especialidad" value="Otra">
                         <label for="Otra">Otra</label>
                     </div>
-                    <div class="fondo-verde">
-                        <section class="completar">
-                            <input type="text" placeholder="Nombre y Apellido">
-                            <input type="email" placeholder="email">
-                            <label for="Consulta"> Consulta </label>
-                                <textarea placeholder="..."></textarea>
-                            <input type=submit value="Enviar">
-                        </section>
-                    </div>
-        </form>
+                <div class="fondo-verde">
+                    <section class="completar">
+                        <input type="text" placeholder="Nombre y Apellido">
+                        <input type="email" placeholder="email">
+                        <label for="Consulta"> Consulta 
+                            <textarea placeholder="..."></textarea>
+                        <input type=submit value="Enviar"> 
+                        </label>
+                    </section>
+                </div>
+            </div>
+        </form>   
     </main>
     <footer class="all-footer">
         <!--Se agrega logo en cada item-->
