@@ -46,9 +46,9 @@ header nav ul li a {
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px; }
-  .menu-nav:hover {
-    background-color: white;
-    transform: scale(1.2); }
+    .menu-nav-item:hover {
+      background-color: white;
+      transform: scale(1.2); }
 
 footer h3 a {
   text-decoration: none; }

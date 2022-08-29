@@ -41,9 +41,11 @@ header nav ul li a{
         border-radius: 5px;
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 18px;
-    }
+        
     &:hover {
         background-color: white;
         transform: scale(1.2);
-    }
+    
+}
+}
 }
