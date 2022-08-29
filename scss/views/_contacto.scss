@@ -1,0 +1,20 @@
+.formulario{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: underline;
+    margin: 20px 20px;
+}
+#Quien-consulta{
+    margin: 20px 20px;
+}
+.seleccionar{
+    margin: 20px;
+}
+.completar{
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 30px 30px 30px 50px 30px;
+}

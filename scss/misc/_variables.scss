@@ -1,0 +1,79 @@
+
+@media (min-width: 320px){
+    .box-1{
+    grid-template-columns: 100%;
+    grid-template-rows: 300px;
+    }    
+}
+@media (min-width: 320px){
+    .box-2{
+    grid-template-columns: 100%;
+    grid-template-rows: 300px;
+    }    
+}
+@media (min-width: 768px){
+    .box-1{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px;
+    }    
+}
+@media (min-width: 768px){
+    .box-2{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px;
+    }    
+}
+@media  (max-width: 320px){
+    h1{
+        font-size: 20px;
+        margin-left: 30%;
+    }
+    .imagen1-logo{
+        width: 160px;
+        height: 90px;
+        margin-left: 80%;
+    }
+}
+@media  (max-width: 768px){
+    h1{
+        font-size: 25px;
+        margin-left: 20%;
+    }
+    .imagen1-logo{
+        width: 160px;
+        height: 90px;
+        margin-left: 50%;
+    }
+}
+@media (max-width: 458px){
+    .tabla-horarios{
+        display: block;
+        overflow-x: scroll;
+    } 
+}
+@media (min-width: 320px){
+    #especialidades{
+        grid-column-gap: 15px;
+    }
+}
+/*NAVEGADOR*/
+@media (max-width: 620px){
+    .menu-nav{
+        flex-direction: column;
+    }
+}
+@media (max-width: 458px){
+    .subtitulo{
+        font-size: 17px;
+    }
+    .item{
+        font-size: 13px;
+    }
+}
+@media (max-width: 620px){
+    .parrafo-1,
+    .parrafo-2{
+        font-size: 15px;
+        width: 290px;
+    }
+}

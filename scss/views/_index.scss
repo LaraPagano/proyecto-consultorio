@@ -1,0 +1,75 @@
+
+main p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+main h2{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.box-1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px;
+    place-items: center;
+}
+.cambio-de-letra{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.parrafo-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    display:inline-block;
+    padding: 0px;
+    height: 180px;
+    width: 320px;
+    text-align: center; 
+}
+.parrafo-1{
+    animation-duration: 2s ;
+    animation-name: parrafos;
+}
+.parrafo-2{
+    animation-duration: 2s ;
+    animation-name: parrafos;
+}
+@keyframes parrafos{
+    from{
+        margin-top: 100%;
+    }
+}
+.img-fluid{
+    animation-duration: 2s ;
+    animation-name: imagen;
+}
+@keyframes imagen{
+    from{
+        margin-bottom: 100%;
+    }
+}
+.imagen-box-1 { 
+    justify-content: center;
+}
+.box-2{
+    background-color: #BDE0FE;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px;
+    place-items: center;
+}
+.fondo-verde{
+    background-color: #BDE0FE;
+    margin: 0;
+}
+.parrafo-2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    display:inline-block;
+    padding: 0px;
+    height: 180px;
+    width: 320px;
+    text-align: center;
+}
